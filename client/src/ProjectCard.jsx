@@ -1,11 +1,12 @@
 import React from 'react'
+import './Project.css'
 
-function ProjectCard() {
+function ProjectCard({name, description, image, github, demo}) {
   return (
     <div id="card">
-        <h1> Name </h1>
-        <h3> Description </h3>
-        <p> Github / Demo </p>
+        <h1> {name} </h1>
+        <h3> {description} </h3>
+        <p> {github} / {demo} </p>
     </div>
   )
 }

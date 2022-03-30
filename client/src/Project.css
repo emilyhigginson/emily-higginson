@@ -1,0 +1,48 @@
+#projects{
+    background-color: lightblue;
+    text-align: center; 
+ } 
+ #card {
+    border: 1px solid #044700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 243px;
+    height: 243px;
+    padding: 5px 20px;
+    margin: 15px;
+    background-color: white;
+    float: left;
+    padding: 16px;
+    text-align: center;
+    content: auto;
+ }
+  #skillcard {
+    border: 1px solid #044700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 100px;
+    height: 100px;
+    padding: 5px 20px;
+    margin: 15px;
+    background-color: orange;
+  }
+
+
+  #skill{
+        height: 100px;
+        width: 100px;
+  }
