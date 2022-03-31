@@ -1,7 +1,26 @@
 #projects{
-    background-color: lightblue;
     text-align: center; 
+    position: relative;
+    padding-top: 96px;
+    padding-bottom: 96px;
  } 
+ #cardContainer{
+   max-width: 1296px;
+   margin-right: auto;
+   margin-left: auto;
+   padding-right: 24px;
+   padding-left: 24px;
+   display: grid;
+   grid-auto-columns: 1fr;
+   grid-column-gap: 24px;
+   grid-row-gap: 24px;
+   -ms-grid-columns: 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
+   -ms-grid-rows: auto auto;
+   grid-template-rows: auto auto;
+   -webkit-perspective: 1000px;
+   perspective: 1000px;
+ }
  #card {
     border: 1px solid #044700;
     display: flex;
@@ -13,8 +32,8 @@
     flex-basis: auto;
     align-self: auto;
     order: 0;
-    width: 243px;
-    height: 243px;
+    /* width: 243px;
+    height: 243px; */
     padding: 5px 20px;
     margin: 15px;
     background-color: white;

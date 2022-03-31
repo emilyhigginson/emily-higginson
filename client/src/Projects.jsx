@@ -16,7 +16,7 @@ function Projects() {
     <div id="projects">
         <h1>Projects</h1>
         <p>Here are my projects</p>
-        <p>
+        <p id="cardContainer">
     {projectArray.map((project) => (    
     <ProjectCard
         key={project.id}
